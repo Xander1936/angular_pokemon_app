@@ -30,6 +30,7 @@ export class PokemonService {
   }
 
   searchPokemonList(term: string): Observable<Pokemon[]> {
+    // L'utilisateur doit taper au moins 02 lettres 
     if(term.length <= 1) {
       return of([]);
     } 

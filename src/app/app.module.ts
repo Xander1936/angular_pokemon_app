@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PokemonModule } from './pokemon/pokemon.module';
 import { InMemoryDataService } from './in-memory-data.service';
+import { LoginComponent } from './login/login.component';
 // import { LoginComponent } from './login/login.component';
 
 @NgModule({
@@ -16,6 +17,7 @@ import { InMemoryDataService } from './in-memory-data.service';
     // LoginComponent
     AppComponent,
     PageNotFoundComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
