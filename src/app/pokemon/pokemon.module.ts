@@ -14,7 +14,7 @@ import { SearchPokemonComponent } from './search-pokemon/search-pokemon.componen
 import { LoaderComponent } from './loader/loader.component';
 import { AuthGuard } from '../auth.guard';
 
-
+// Angular 13.2.6 -> Node: 16.10.0
 const pokemonRoutes: Routes = [
   // Du haut vers le bas toujours 
   // declarer les routes specifiques eg. 'pokemon/add' en haut et les routes globales en bas 
